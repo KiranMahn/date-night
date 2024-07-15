@@ -1,13 +1,8 @@
-const fs = require('fs');
-const path = require('path');
-
-// Load the JSON data from the file
-const dataPath = path.join(__dirname, '..', 'data', 'date_ideas.json');
-const dateIdeas = JSON.parse(fs.readFileSync(dataPath, 'utf-8')).dateIdeas;
+import dateIdeas from '../data/date_ideas.json'; // Adjust the path if necessary
 
 // Function to get a random date idea from a specified category
 function getDateIdea(type) {
-  const ideas = dateIdeas[type];
+    const ideas = dateIdeas.dateIdeas[type];
   
   if (!ideas) {
     return { idea: "Invalid type", description: "The specified type of date is not valid." };
@@ -19,12 +14,14 @@ function getDateIdea(type) {
 
 // Function to get a random date idea from any category
 function surprise() {
-  const categories = Object.keys(dateIdeas);
+  const categories = Object.keys(dateIdeas.dateIdeas);
   const randomCategory = categories[Math.floor(Math.random() * categories.length)];
-  const ideas = dateIdeas[randomCategory];
+  const ideas = dateIdeas.dateIdeas[randomCategory];
   const randomIndex = Math.floor(Math.random() * ideas.length);
   return ideas[randomIndex];
 }
+
+export {surprise, getDateIdea}
 
 // Example usage
 const type = 'freeDates'; // Change this to any valid type
