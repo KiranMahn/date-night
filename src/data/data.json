@@ -1,0 +1,115 @@
+{
+    "dateIdeas": {
+      "longDistanceDates": [
+        {
+          "idea": "Virtual Movie Night",
+          "description": "Watch the same movie together while on a video call."
+        },
+        {
+          "idea": "Online Game Night",
+          "description": "Play multiplayer online games together."
+        },
+        {
+          "idea": "Virtual Dinner Date",
+          "description": "Cook the same meal and eat together over a video call."
+        },
+        {
+          "idea": "Virtual Museum Tour",
+          "description": "Explore an online museum tour together."
+        },
+        {
+          "idea": "Reading Together",
+          "description": "Read the same book and discuss it over a video call."
+        }
+      ],
+      "freeDates": [
+        {
+          "idea": "Stargazing",
+          "description": "Find a quiet spot and watch the stars."
+        },
+        {
+          "idea": "Hiking",
+          "description": "Explore a local trail or nature reserve."
+        },
+        {
+          "idea": "Picnic in the Park",
+          "description": "Pack a simple picnic and enjoy it at a nearby park."
+        },
+        {
+          "idea": "Beach Day",
+          "description": "Spend a day at the beach building sandcastles and swimming."
+        },
+        {
+          "idea": "Home Movie Marathon",
+          "description": "Watch your favorite movies at home."
+        }
+      ],
+      "datesToDressUpFor": [
+        {
+          "idea": "Fancy Dinner",
+          "description": "Dress up and go out for a fancy dinner."
+        },
+        {
+          "idea": "Opera or Ballet",
+          "description": "Attend a performance at an opera house or ballet theater."
+        },
+        {
+          "idea": "Gala or Charity Event",
+          "description": "Participate in a local gala or charity event."
+        },
+        {
+          "idea": "Cocktail Party",
+          "description": "Dress up and enjoy a night out at a cocktail bar."
+        },
+        {
+          "idea": "Formal Dance",
+          "description": "Go to a formal dance or ball."
+        }
+      ],
+      "lateNightDates": [
+        {
+          "idea": "Midnight Snack Run",
+          "description": "Go out for a late-night snack or dessert."
+        },
+        {
+          "idea": "Nighttime City Tour",
+          "description": "Explore the city at night and enjoy the lights."
+        },
+        {
+          "idea": "Live Music",
+          "description": "Catch a live music performance at a local venue."
+        },
+        {
+          "idea": "Night Hike",
+          "description": "Go for a hike under the stars or by the light of the moon."
+        },
+        {
+          "idea": "Late Night Drive",
+          "description": "Take a drive to a scenic spot and enjoy the night view."
+        }
+      ],
+      "daytimeDates": [
+        {
+          "idea": "Brunch",
+          "description": "Enjoy a leisurely brunch at a nice café."
+        },
+        {
+          "idea": "Visit a Museum",
+          "description": "Spend the day exploring a museum."
+        },
+        {
+          "idea": "Botanical Garden",
+          "description": "Visit a local botanical garden and enjoy the flowers."
+        },
+        {
+          "idea": "Zoo or Aquarium",
+          "description": "Spend the day at the zoo or aquarium."
+        },
+        {
+          "idea": "Cooking Class",
+          "description": "Take a cooking class together and learn to make a new dish."
+        }
+      ]
+    }
+  }
+  
